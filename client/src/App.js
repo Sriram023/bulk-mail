@@ -40,7 +40,7 @@ function App() {
   // ================= SEND EMAIL FUNCTION =================
   const sendEmails = async () => {
     try {
-      const res = await axios.post("http://localhost:5000/send", {
+      const res = await axios.post("https://bulk-mail-phvz.onrender.com", {
         subject,
         text,
         emails,
