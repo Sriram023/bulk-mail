@@ -1,0 +1,42 @@
+/* ================= GLOBAL RESET ================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ================= BODY ================= */
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to bottom, #021b3a, #53c5ff);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ================= ROOT ================= */
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* ================= SCROLLBAR ================= */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #021b3a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0076e4;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #53c5ff;
+}
